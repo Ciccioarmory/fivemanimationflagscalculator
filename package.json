@@ -1,14 +1,16 @@
 {
   "name": "fivemanimationflagscalculator",
-  "displayName": "FivemAnimationFlagsCalculator",
-  "description": "Vespura's flags calculator but in a vscode extension",
-  "version": "0.0.1",
+  "displayName": "Fivem Vespura's Animation Flags Calculator",
+  "description": "Vespura's flags calculator but in a vscode extension (literally just an iframe, all credits to Vespura for the calculator, i just put it in an extension https://vespura.com)",
+  "publisher": "Ciccioarmory",
+  "version": "1.0.0",
   "engines": {
       "vscode": "^1.94.0"
   },
   "categories": [
       "Other"
   ],
+  "icon": "resources/icon.png",
   "activationEvents": [
   ],
   "main": "./extension.js",
@@ -17,7 +19,7 @@
           "activitybar": [
               {
                   "id": "fivemAnimationContainer",
-                  "title": "Fivem",
+                  "title": "Animation Flags Calculator",
                   "icon": "resources/icon.png"
               }
           ]
